@@ -10,6 +10,7 @@ This tool simulates the collection of threat intelligence data from multiple ope
 - **Automated Reporting:** Generates a JSON report summarizing correlated events.
 
 ## Repository Structure
+```
 Threat-Intelligence-Aggregator/
 ├── README.md
 ├── requirements.txt
@@ -25,10 +26,12 @@ Threat-Intelligence-Aggregator/
     ├── alert_scoring.py
     ├── dashboard.py
     └── response_report.py
-
+```
 ## Usage
 
 1. Use GitHub Codespaces or the web editor.
 2. Install dependencies listed in `requirements.txt`.
 3. Run the application with:  
-   `python src/main.py`
+```
+   python src/main.py
+```
